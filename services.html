@@ -1,173 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Services</title>
-    <link href="bootstrap.min.css" rel="stylesheet" />
-    <link href="common.css" rel="stylesheet" />
+
     <link href="menu.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Lobster&family=Vollkorn&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-    
-    body, html {
-      height: 100%;
-      line-height: 1.8;
-    }
-    
-    /* Full height image header */
-    .bgimg-1 {
-      background-position: center;
-      background-size: cover;
-      background-image: url("services.jpg");
-      min-height: 100%;
-    }
-    
-    .w3-bar .w3-button {
-      padding: 16px;
-    }
-    .container {
-  position: relative;
-  width: 900px;
-  height: 500px;
-}
-
-.image {
-  display: block;
-  width: 900px;
-  height:500px;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 100%;
-  right: 0;
-  background-color: #2d3335;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
-}
-
-.container:hover .overlay {
-  width: 100%;
-  left: 0;
-}
-
-.text {
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
-.banner-container {
-    background-image:url("services.jpg");
-    background-attachment:fixed;
-    background-size: 100% 100%;
-    box-shadow: inset 0 0 0 2000px #1c1c1c7a;
-    text-align: center;
-    height: 500px;
-    width: 1700px;
-    padding: 160px 15px;
-}
-    </style>
-</head>
-<body>
-    <div class="w3-top">
-        <div class="w3-bar w3-white w3-card" id="myNavbar">
-          <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
-          <!-- Right-sided navbar links -->
-          <div class="w3-right w3-hide-small">
-            <a href="inventory.html" class="w3-bar-item w3-button">InventoryCars</a>
-            <a href="services.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i>Services</a>
-            <a href="sellcar.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i>Sell Your Car</a>
-            <a href="about.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i>About Us</a>
-            <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Contact</a>
-          </div>
-          <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-      
-          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-      </div>
-   
-      <h1>   </h1>
-      <div class="banner-container">
-
-  
-    </div>
-
-    <div class="places-summary page-container">
-        <div class="row no-gutters justify-content-between">
-
-            
-        </div>
-        <div class="detail-container">
-            <div class="place-name"> ---</div>
-            <div class="place-about"> </div>
-        </div>
-        <div class="row no-gutters">
-
-            <div class="button-container col-6">
-                <a href="#" class="btn btn-primary">-----</a>
-            </div>
-        </div>
-    </div>
-    <br>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Lobster&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles/services.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <img src="images /repair.jpg" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Repairs</div>
+      <a href="index.html"> <img class="logo" src="images/logo2.png" /> </a>
+      <nav>
+        <a href="inventory.html"> Inventory/Cars</a>
+        <a href="services.html"> Services</a>
+        <a href="sellcar.html"> Sell Your Car</a>
+        <a href="about.html"> About Us</a>
+        <a href="contact.html"> Contact</a>
+      </nav>
+      <!--banner photo-->
+      <header class="bannerPhoto"><div class="banner"></div></header>
+      <hr />
+
+      <div id="services">
+        <div class="containerService">
+          <div class="image-container">
+            <img
+              class="serviceImage"
+              src="images/repair.jpg "
+              alt="Avatar"
+              class="image"
+            />
+          </div>
+          <div class="text-container">
+            <div class="overlay">
+              <h1 class="text">Repairs</h1>
+            </div>
+            <p>
+              Our repair section provides detailed information about your
+              vehicle's maintenance and repair history. We keep accurate and
+              up-to-date records of all work performed, so you can make informed
+              decisions about your car's maintenance and resale value. Trust us
+              to keep your vehicle in great shape, so you can focus on enjoying
+              the ride.
+            </p>
+          </div>
+        </div>
+        <br />
+        <div class="containerService">
+          <div class="image-container">
+            <img
+              class="serviceImage"
+              src="images/finance.jpg "
+              alt="Avatar"
+              class="image"
+            />
+          </div>
+          <div class="text-container">
+            <div class="overlay">
+              <h1 class="text">Finance Your Car</h1>
+            </div>
+            <p>
+              Looking to finance your car purchase? Our "Finance Your Car"
+              section on Autohandlers website provides easy and hassle-free
+              financing options for your dream car purchase. With competitive
+              interest rates and flexible payment terms tailored to your
+              financial needs and budget, you can get pre-approved in minutes
+              and focus on choosing the right car for you. Apply online and take
+              the first step towards owning your dream car today.
+            </p>
+          </div>
+        </div>
+        <br />
+
+        <div class="containerService">
+          <div class="image-container">
+            <img
+              class="serviceImage"
+              src="images/test drive.jpg"
+              alt="Avatar"
+              class="image"
+            />
+          </div>
+          <div class="text-container">
+            <div class="overlay">
+              <h1 class="text">Schedule a Test Drive</h1>
+            </div>
+            <p>
+              Looking to take your desired car for a test run? Autohandlers
+              website offers a "Schedule a Test Drive" feature, which enables
+              you to effortlessly book an appointment for test driving your
+              preferred vehicle. Just choose the date and time that suits you
+              best, and we'll take care of everything else. Our skilled staff
+              will be present to help you throughout the process and clarify any
+              concerns you may have, allowing you to make an informed choice
+              before finalizing your purchase.
+            </p>
+          </div>
+        </div>
+        <br />
+
+        <div class="containerService">
+          <div class="image-container">
+            <img
+              class="serviceImage"
+              src="images/speak to a dealer.jpg"
+              alt="Avatar"
+              class="image"
+            />
+          </div>
+          <div class="text-container">
+            <div class="overlay">
+              <h1 class="text">Speak to a Dealer</h1>
+            </div>
+            <p>
+              If you have any questions or concerns regarding the car buying or
+              selling process, we are here to help. Our knowledgeable dealers
+              can provide detailed answers and even advise on the best car for a
+              customer's needs. This feature ensures that customers have a
+              smooth and satisfactory buying experience.
+            </p>
+          </div>
+        </div>
+        <br />
+
+        <div class="containerService">
+          <div class="image-container">
+            <img
+              class="serviceImage"
+              src="images/careers.jpg"
+              alt="Avatar"
+              class="image"
+            />
+          </div>
+          <div class="text-container">
+            <div class="overlay">
+              <h1 class="text">Careers</h1>
+            </div>
+            <p>
+              The Careers page on our website provides information about the job
+              opportunities available at our company. We offer a variety of
+              positions across different departments, from sales to customer
+              service to finance. Our company culture is centered around
+              teamwork, growth, and providing excellent service to our
+              customers.
+            </p>
+          </div>
         </div>
       </div>
-<br>
-      <div class="container">
-        <img src="images /finance.jpg" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Finance Your Car</div>
-        </div>
-      </div>
-      <br>
-
-      <div class="container">
-        <img src="images /test drive.jpg" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Schedule a Test Drive</div>
-        </div>
-      </div>
-      <br>
-
-      <div class="container">
-        <img src="images /speak to a dealer.jpg" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Speak to a Dealer</div>
-        </div>
-      </div>
-      <br>
-
-      <div class="container">
-        <img src="images /career.jpg" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Careers</div>
-        </div>
-      </div>
-
-
-</body>
+    </div>
+  </body>
+  <footer>
+    <span class="footerItem"> Privacy Policy</span>
+    <span class="footerItem"> Terms of Use</span>
+    <span class="footerItem"> Accesibility</span>
+    <span class="footerItem"> Feedback</span>
+    <span class="footerItem"> Disclosure</span>
+    <span class="footerItem"> Financial Privacy Policy</span>
+  </footer>
 </html>
