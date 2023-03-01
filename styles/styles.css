@@ -1,0 +1,132 @@
+header {
+  background-image: url("../images/banner2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: "arimo", sans-serif;
+  background-color: #e7eaf6;
+  margin: 0px;
+}
+a,
+a::after,
+a:visited {
+  text-decoration: none;
+}
+a {
+  color: #113f67;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+hr {
+  background-color: #113f67;
+  height: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #113f67;
+  font-style: normal;
+}
+
+nav {
+  float: right;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.review {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+}
+.reviewphoto {
+  width: 200px;
+  height: auto;
+  display: block;
+  box-shadow: 2px 2px 2px 2px #113f67cd;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.container {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.news {
+  margin: 0px;
+  padding: 60px 50px 30px 50px;
+  border: #113f67 solid 5px;
+
+  background: rgb(56, 89, 139, 0.9);
+  background: #e7eaf6;
+  justify-content: center;
+}
+.tip {
+  margin-bottom: 50px;
+}
+.tipimg {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin-right: 1rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+footer {
+  margin-top: 30px;
+  background: #113f67;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.footerItem {
+  margin: 0 50px;
+  color: #e7eaf6;
+}
+
+.tipstext {
+  color: #e7eaf6;
+  text-align: right;
+
+  font-size: 20px;
+}
+
+.tip {
+  background: rgb(56, 89, 139, 0.9);
+  padding: 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 20px 0px 20px 0px;
+  max-height: fit-content;
+}
+
+.checked {
+  text-align: center;
+}
+
+.stars {
+  padding: 0px;
+}

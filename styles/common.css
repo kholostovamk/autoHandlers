@@ -1,0 +1,145 @@
+.banner-container {
+    background-image: url("video/Vixer.mp4");
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+    text-align: center;
+    height: 500px;
+    width: 1700px;
+    padding: 160px 15px;
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        padding: 100px 15px;
+    }
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bonheur Royale', cursive;
+    padding: 1cm;
+    font-size: 35px;
+}
+    
+    nav {
+        margin: 27px auto 0;
+        display: block;
+        position: relative;
+         width: 100%;
+         text-align: center;
+        height: 30px;
+       background-color: #ffffff;
+       border-radius: 8px;
+       
+      }
+    nav a {
+       line-height: 50px;
+       height: 40px;
+        font-size: 30px;
+        font-family: 'Vollkorn', serif;
+        padding-right: 2cm;
+       display:inline-block ;
+       position: relative;
+       z-index: 1;
+        text-align: center;
+        color: rgb(0, 0, 0);
+       cursor: pointer;
+         }
+    nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+    }
+    a:nth-child(1) {
+    width: 110px;
+    }
+    a:nth-child(2) {
+    width: 110px;
+    }
+    a:nth-child(3) {
+    width: 200px;
+    }
+    a:nth-child(4) {
+    width: 160px;
+    }
+    a:nth-child(5) {
+    width: 300px;
+    }
+    nav .start-home, a:nth-child(1):hover~.animation {
+    width: 110px;
+    height: 60px;
+    left: 160px;
+    background-color: #c8f8ee;
+    }
+    nav .start-about, a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 290px;
+    background-color: #ecbfba;
+    }
+    nav .start-blog, a:nth-child(3):hover~.animation {
+    width: 200px;
+    left: 400px;
+    background-color: #9cc6e2;
+    }
+    nav .start-portefolio, a:nth-child(4):hover~.animation {
+    width: 180px;
+    left: 600px;
+    background-color: #ddbaea;
+    }
+    nav .start-contact, a:nth-child(5):hover~.animation {
+    width: 210px;
+    left: 790px;
+    background-color: #e67e22;
+    }
+
+  
+.images {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #ffffff8f;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+    padding: 16px 32px;
+  }
+  .flex-container {
+    display: flex;
+    text-align: center;
+    
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
