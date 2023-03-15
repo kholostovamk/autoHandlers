@@ -62,7 +62,7 @@ nav a {
 .container {
   margin-left: 60px;
   margin-right: 60px;
-  margin-top: 150px;
+
 }
 .logo {
   width: 100px;
@@ -129,6 +129,7 @@ footer {
 .banner {
   max-width: max-content;
   margin: 0 auto;
+  margin-top: 160px;
 }
 
 .navigation {
@@ -143,11 +144,12 @@ footer {
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   
+  
 }
 
 .nav-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   z-index: 0px;
   background-color: #4a6796b5;
