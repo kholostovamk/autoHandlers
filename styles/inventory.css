@@ -1,0 +1,48 @@
+body {
+  background-color: #d9dae6;
+}
+
+h1 {
+  text-align: center;
+  color: #113f67;
+}
+
+h2 {
+  color: #f2f5f9;
+  text-align: center;
+}
+
+.card {
+  background-color: #4a6796;
+  border: 1px solid #ccc;
+  border-radius: 7px 0px;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.carPhoto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carDescription {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #d9dae6;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}

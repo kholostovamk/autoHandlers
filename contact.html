@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact us</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Lobster&family=Vollkorn&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+   
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Raleway"
@@ -24,20 +26,76 @@
   </head>
   <body>
     <div class="navigation">
-        
       <nav class="nav-links">
-        <a href="index.html"> <img class="logo" src="images/logo2.png" /> </a>
+        <a class="logoLink" href="index.html"> <img class="logo" src="images/logoCarCircle.png" /> </a>
+        <div class="mainLinks">
+        <a href="index.html"> Home</a>
         <a href="inventory.html"> Inventory/Cars</a>
         <a href="services.html"> Services</a>
-        <a href="sellcar.html"> Sell Your Car</a>
-        <a href="about.html"> About Us</a>
         <a href="contact.html"> Contact</a>
-      </nav>
       </div>
-      <header ><div class="banner"></div></header>
-      <hr />
-    <div class="container">
-    <!--future text-->
+      </nav>
+    </div>
+    <header><div class="banner"></div></header>
+    
+    <h1>Contact Information</h1>
+    <hr style="background-color: #113f67;height: 5px;">
+       <div class="container">
+        
+        <div>
+        <section id="contact-info">
+          
+            
+            <p>For any inquiries or assistance, feel free to reach out to us using the following contact information:</p>
+            <ul>
+              <li>
+                <strong>Address:</strong><br>
+                Autohandlers Inc.<br>
+                1234 Motorway Drive<br>
+                Autoville, A123 4CD
+              </li>
+              <li>
+                <strong>Phone:</strong><br>
+                <a href="tel:+1-555-123-4567">+1 (555) 123-4567</a>
+              </li>
+              <li>
+                <strong>Email:</strong><br>
+                <a href="mailto:info@autohandlers.com">info@autohandlers.com</a>
+              </li>
+              <li>
+                <strong>Business Hours:</strong><br>
+                Monday - Friday: 9:00 AM - 6:00 PM<br>
+                Saturday: 10:00 AM - 4:00 PM<br>
+                Sunday: Closed
+              </li>
+            </ul>
+        
+        </section>
+      </div>
+       
+
+        
+        <div>
+        <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/{xgebrzeb}" method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+            <br>
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+            <br>
+            <label for="telephone">Telephone Number (Optional)</label>
+            <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555">
+            <br>
+            <label for="message">Message</label>
+            <textarea rows="6" name="Message" id="Message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Message Form Submission">
+            <input type="submit" value="Send">
+          </fieldset>
+          
+        </form>
+      </div>
+  </div>
     </div>
   </body>
   <footer>

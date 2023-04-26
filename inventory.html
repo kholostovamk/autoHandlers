@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>inventory</title>
-   
-    <link href="styles/bootstrap.min.css" rel= "stylesheet"/>
+    <title>Inventory</title>
 
+   
     <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/inventory.css" rel="stylesheet" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,172 +23,109 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
   </head>
   </head>
   <body>
     <div class="navigation">
         
       <nav class="nav-links">
-        <a href="index.html"> <img class="logo" src="images/logo2.png" /> </a>
+        <a class="logoLink" href="index.html"> <img class="logo" src="images/logoCarCircle.png" /> </a>
+        <div class="mainLinks">
+        <a href="index.html"> Home</a>
         <a href="inventory.html"> Inventory/Cars</a>
         <a href="services.html"> Services</a>
-        <a href="sellcar.html"> Sell Your Car</a>
-        <a href="about.html"> About Us</a>
         <a href="contact.html"> Contact</a>
+      </div>
       </nav>
       </div>
       <header ><div class="banner photo"></div></header>
-      <hr />
-    <div class="container">
-       
+     
+      <h1>Our Inventory</h1>
+      <hr style="background-color: #113f67;height: 5px;" >
+     
+   
+      <div class="container">
+
+      <div class="row">
+      <div class="card">
+        <h2>Ford Mustang </h2>
+        <p class="carDescription">
+         2022, 11765 miles
+        </p>
+            <div class="carPhoto"><img src="images/mustang.jpg" /></div>
+      </div>
+
+      <div class="card">
+        <h2>Chevrolet Camaro</h2>
+        <p class="carDescription">
+          2017, 63123 miles
+        </p>
+        <div class="carPhoto"><img src="images/yellowcamaro.jpeg" /></div>
+      </div>
+
+      </div><!--row end-->
+
+      <div class="row">
+     
+      <div class="card">
+        <h2>BMW 330i xDRIVE </h2>
+        <p class="carDescription">
+          2023, 5456 miles
+        </p>
+        <div class="carPhoto">
+            <img src="images/car4.jpg" /></div>
+      </div>
     
-    <h3>Our Inventory</h3>
-    <div class="banner-container"></div>
+      <div class="card">
+        <h2>Jeep Compass</h2>
+        <p class="carDescription">
+          2019, 37546 miles
+        </p>
+        <div class="carPhoto">
+            <img src="images/JeepCompass.avif" /></div>
+      </div>
+     
+      </div><!--row end-->
 
-    <!--<div class="places-summary page-container">
-      <div class="row no-gutters justify-content-between"></div>
-      <div class="detail-container">
-        <div class="place-name">---</div>
-        <div class="place-about"></div>
-      </div>
-      <div class="row no-gutters">
-        <div class="button-container col-6">
-          <a href="#" class="btn btn-primary">---</a>
-        </div>
-      </div>
-    </div>-->
+      <div class="row">
 
-    <div class="page-container">
-      <h1>Ford Mustang</h1>
-      <div class="place-card place-id-1 row">
-        <div class="image-container col-md-4">
-          <img src="images/mustang.jpg" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">Mustang</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
+      <div class="card">
+        <h2>Ford Mustang</h2>
+        <p class="carDescription">
+          2020, 37452 miles
+        </p>
+        <div class="carPhoto">
+            <img src="images/car2.JPG" /></div>
       </div>
-      <h1>Chevrolet Camaro</h1>
-      <div class="property-card property-id-2 row">
-        <div class="image-container col-md-4">
-          <img src="images/yellowcamaro.jpeg" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">--</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
+      
+      <div class="card">
+        <h2>Chevrolet Colorado Z71</h2>
+        <p class="carDescription">
+          2018, 62769 miles
+        </p>
+        <div class="carPhoto">
+            <img src="images/chevrolet.jpeg" /></div>
       </div>
-      <h1>Chevrolet Camaro</h1>
-      <div class="place-card place-id-1 row">
-        <div class="image-container col-md-4">
-          <img src="images/car4.jpg" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">--</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
-      </div>
+      
+    </div><!--row end-->
+    </div><!--container end-->
+    
 
-      <div class="property-card property-id-2 row">
-        <div class="image-container col-md-4">
-          <img src="images/car3.jpg" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">--</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
-      </div>
+    
+      
 
-      <div class="place-card place-id-1 row">
-        <div class="image-container col-md-4">
-          <img src="images/car2.JPG" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">--</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
-      </div>
 
-      <div class="property-card property-id-2 row">
-        <div class="image-container col-md-4">
-          <img src="images/bluebmw2.jpeg" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">--</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
-      </div>
-      <div class="property-card property-id-2 row">
-        <div class="image-container col-md-4">
-          <img src="images/silverbenz.jpeg" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">--</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
-      </div>
-      <div class="property-card property-id-2 row">
-        <div class="image-container col-md-4">
-          <img src="images/blueaudi.jpeg" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">--</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
-      </div>
-      <div class="property-card property-id-2 row">
-        <div class="image-container col-md-4">
-          <img src="images/car1a.jpg" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">--</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
-      </div>
-      <div class="place-card place-id-1 row">
-        <div class="image-container col-md-4">
-          <img src="images/car1.jpg" />
-        </div>
-        <div class="content-container col-md-8">
-          <div class="row no-gutters justify-content-between"></div>
-          <div class="detail-container">
-            <div class="place-name">--</div>
-            <div class="place-about"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
+
+   
+
+    
+
+
+  
+</div>
+
   </body>
   <footer>
     <span class="footerItem"> Privacy Policy</span>

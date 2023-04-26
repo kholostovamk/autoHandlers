@@ -2,9 +2,8 @@ header {
   background-image: url("../images/banner2.jpg");
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 350px;
   margin-bottom: 20px;
-
 }
 
 body {
@@ -43,7 +42,7 @@ h1 {
 h3 {
   text-align: center;
   padding: 50px;
-  margin:auto;
+  margin: auto;
   font-size: 35px;
 }
 
@@ -70,13 +69,20 @@ nav a {
 .container {
   margin-left: 60px;
   margin-right: 60px;
+}
 
+.customersHeading {
+  padding: 20px;
 }
 .logo {
-  width: 100px;
-  height: 100px;
-  margin-left: 20px;
-  padding: 10px;
+  width: 125px;
+  height: auto;
+  margin: auto;
+}
+
+.logoLink {
+  margin-left: 0px;
+  margin-right: 750px;
 }
 
 .news {
@@ -87,6 +93,10 @@ nav a {
   background: rgb(56, 89, 139, 0.9);
   background: #e7eaf6;
   justify-content: center;
+}
+
+.newsTips {
+  padding: 30px;
 }
 .tip {
   margin-bottom: 50px;
@@ -148,11 +158,10 @@ footer {
   top: 0;
   right: 0;
   width: 100%;
-  background-color: #4a6796;
+  background-color: #123f67;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   z-index: 10;
-  
 }
 
 .nav-links {
@@ -160,15 +169,24 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   z-index: 0;
-  background-color: #4a6796b5;
+  background-color: #123f67;
   width: 100%;
-}
-
-.nav-links a {
   margin-left: 30px;
   text-decoration: none;
   color: #e7eaf6;
-  font-size: 1.2rem;
+  font-size: 25px;
   font-weight: 500;
   letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: #e7eaf6;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.mainLinks {
+  margin-left: 50px;
 }
