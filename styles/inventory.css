@@ -25,12 +25,14 @@ h2 {
   margin: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .carPhoto img {
   width: 100%;
   height: auto;
   display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .carDescription {
@@ -45,4 +47,8 @@ h2 {
 .row {
   display: flex;
   justify-content: space-around;
+}
+
+footer {
+  text-align: center;
 }

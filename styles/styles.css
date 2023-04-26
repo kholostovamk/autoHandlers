@@ -81,8 +81,11 @@ nav a {
 }
 
 .logoLink {
-  margin-left: 0px;
-  margin-right: 750px;
+  /*margin-left: 0px;
+  margin-right: 750px;*/
+  position: absolute;
+  left: 20px;
+  top: 20px;
 }
 
 .news {
@@ -158,20 +161,22 @@ footer {
   top: 0;
   right: 0;
   width: 100%;
+  height: 150px;
   background-color: #123f67;
-  padding: 20px;
+
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
 
 .nav-links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: right;
   align-items: center;
   z-index: 0;
   background-color: #123f67;
   width: 100%;
   margin-left: 30px;
+  margin-right: 30px;
   text-decoration: none;
   color: #e7eaf6;
   font-size: 25px;

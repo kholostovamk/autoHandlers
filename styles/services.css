@@ -1,3 +1,7 @@
+body {
+  font-family: "Arimo", sans-serif;
+}
+
 #services {
   display: flex;
   flex-direction: column;
@@ -53,13 +57,14 @@ header {
   /* transition: margin-right 10s ease-in-out;*/
   z-index: 9;
   border: 3px solid #113f67;
-  box-shadow: 0px 0px 5px 0px #113f6734;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.676);
 }
 
 p {
   position: relative;
   z-index: 8;
   font-size: 20px;
+  text-align: center;
 }
 
 img:hover {
@@ -67,4 +72,8 @@ img:hover {
   z-index: 9;
   transition: margin-right 10s ease-in-out;
   transition-property: margin-right, yellow;
+}
+.container a {
+  color: #113f67;
+  font-size: 20px;
 }

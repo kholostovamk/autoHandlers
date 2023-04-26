@@ -46,6 +46,7 @@ input[type="submit"]:hover {
   align-items: center;
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 
 #contact-info h2 {
@@ -70,9 +71,20 @@ form {
 }
 
 footer {
-  display: flex;
+  position: relative;
+  margin-top: auto;
+  text-align: center;
 }
 
-.footerItem {
-  margin-left: 30px;
+body {
+  margin: 0;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+td {
+  border: 1px solid #113f67;
 }
